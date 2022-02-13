@@ -1,0 +1,199 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #191919;
+  color: #fff;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-heading {
+  font-family: 'Montserrat';
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.title-image {
+  transform: scaleX(-1);
+  border-radius: 100%;
+  position: absolute;
+  right: 5%;
+}
+
+@media (max-width: 1028px){
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    border-radius: 0%;
+  }
+
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-family: 'Montserrat-Light';
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.8rem;
+}
+
+.feature-box {
+    padding: 6% 4%;
+}
+
+.feature-icon {
+  margin-bottom: 1rem;
+  color: #00000;
+}
+
+.feature-icon:hover {
+  color: #484848;
+}
+
+/* Supported Formats Section */
+
+#supported-formats .title-heading {
+  text-align: left;
+}
+
+.supported-formats-image {
+  height: 80%;
+  margin-top: 10%;
+}
+
+/* Scan and Save Section */
+
+.scan-save-gif {
+  width: 70%;
+  /* margin: 15% 30% 15% 0; */
+  margin: 20% 15%;
+}
+
+.paragraphs-text {
+  text-align: left;
+  font-size: 1.2rem;
+  padding-top: 2%;
+}
+
+.scan-save-side-text {
+  padding-left: 25px;:
+}
+
+#scan-save .title-heading {
+  text-align: left;
+  /* text-decoration: underline; */
+}
+
+@media (max-width: 1028px) {
+  .paragraphs-text {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  /* Scan and save */
+  .scan-save-gif {
+    width: 50%;
+    margin: 15%;
+  }
+
+
+  /* Supported Formats Section */
+
+  #supported-formats .title-heading {
+    text-align: center;
+  }
+
+
+  /* Scan and Save Section */
+
+  #scan-save .title-heading {
+    text-align: center;
+    /* text-decoration: underline; */
+  }
+}
+
+@media (max-width: 640px){
+  .scan-save-gif {
+    width: 60%;
+    margin: 15%;
+  }
+
+  /* Supported Formats Section */
+
+  .supported-formats-image {
+    width: 85%;
+  }
+}
+
+/* Download Section */
+
+#download .paragraphs-text {
+  text-align: center;
+  font-size: 1.2rem;
+  padding-top: 2%;
+}
+
+/* Footer */
+
+.footer-link {
+  margin: 0 10px;
+}
+
+.footer-link:hover {
+  opacity: 0.3;
+}
+
+.footer-text {
+  padding-top: 25px;
+}
